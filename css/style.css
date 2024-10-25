@@ -21,32 +21,27 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 0px;
     gap: 2.5rem;
     
 }
 
-.header-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    gap: 2.5rem;
-    margin-bottom: 20px;
+
+
     
 
 }
 .header carro-img{
     width: 200%;
+    height: 500px;
 }
 
 
 .campo-de-busqueda{
     background-color: azure;
-    margin: 5px;
-    padding: 5px;
     display: flex;
     width: 300px;
-    height: 50px;
+    height: 100%;
+
     
 
 }
@@ -97,6 +92,13 @@ body{
     text-align: start;
     justify-content: flex-end;
     margin-left: 35px;
+
+}
+
+.ver-productos-button{
+    background-color: rgba(45, 186, 51, 1);
+    width: 173px;
+    height: 44.15px;
 
 }
 
@@ -223,4 +225,367 @@ body{
     display: flex;
     flex-direction: row;
     gap: .3125rem;
+}
+
+/* CATEGORIAS PAGE */
+
+
+
+.main-categorias{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.menu-lateral{
+    width: 30%;
+    height: 100%;
+    background-color: rgba(217, 217, 217, 1);
+}
+
+
+
+
+
+.titulos-menu-lateral{
+    display: flex;
+    flex-direction: row;
+    gap: 1.25rem;
+    padding: 20px;
+}
+
+.tarjeta-desplegada{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.seccion-prductos-desplegados{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+.seccion.aceite.vinagre.y.sal{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.contenedor-de-cards{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 10px;
+
+}
+.titulo-aceite-vinagre-y-sal{
+    width: 100%;
+    height: 100%;
+    
+    
+
+}
+
+.card-categorias{
+    width: 30%;
+    height: 30%;
+    justify-content: space-evenly;
+}
+
+.card-img-categorias{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.seccion.aceite.de.girasol-semillas-y-maiz{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* CARRO PAGE */
+
+
+
+.main-carro{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(217, 217, 217, 0.48);
+
+}
+
+.contenedor-carro-resumen{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.carro-resumen{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+
+}
+
+.tarjeta-de-productos{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.contenedor-carro{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    
+
+
+
+}
+.ordenar{
+    width: 100%;
+    height: 10%;
+}
+
+.contenedor-de-tarjeta-de-productos{
+
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+
+
+
+}
+.parte-superior{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 20%;
+    background-color: white;
+}
+
+.vaciar-carro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.entrega p{
+    text-align: end;
+}
+
+.contenedor-de-imagen{
+    width: 50%;
+    height: 100%;
+
+}
+
+.imagen{
+    width: 100%;
+    height: 100%;
+}
+
+.contenedor-info-tarjeta{
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px;
+
+}
+
+.div-abajo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contenedor-de-iconos{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.seccion-resumen{
+    width: 30%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 5%;
+    background-color: white;
+    padding: 10px;
+
+}
+
+.importe-productos{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.contacto{
+    width: 500px;
+    height: 100px;
+    margin-left: 80px;
+}
+
+/* TERMINOS Y CINDICIONES */
+
+.main-terminos-y-condiciones{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+
+/* DATOS PERSONALES PAGE */
+
+
+.main-datos-personales{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.menu-lateral-datos{
+
+    width: 30%;
+    height: 650px;
+    background-color: rgba(217, 217, 217, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    
+    
+}
+
+.contenedor-de-botones{
+    width: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-left: 100px;
+    padding: 20px;
+    text-decoration: none;
+    list-style: none;
+
+
+}
+
+.contenedor-de-boton a {
+
+    text-decoration: none;
+    list-style: none;
+
+
+}
+.contenedor-de-boton{
+    width: 100%;
+
+
+
+}
+
+
+.seccion-datos-personales{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.seccion-de-informacion{
+    width: 100;
+    height: 100%;
+
+    margin-left: 10px;
+    margin-bottom: 10px;
+    row-gap: 10px; 
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+
+}
+
+.contenedor-de-info-1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    gap: 10px;
+    border: 50px;
+    border-color: black;
+
+    
+  
+}
+
+.contenedor-de-info-2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    gap: 10px;
+  
+}
+
+.contenedor-de-info-3{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    gap: 10px;
+  
+}
+
+.contenedor-de-info-4{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    gap: 10px;
+  
+}
+
+.contenedor-de-campo{
+    width: 100%;
+    height: 100%;
+
 }
