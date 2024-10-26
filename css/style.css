@@ -22,25 +22,29 @@ body{
     flex-direction: row;
     justify-content: space-around;
     gap: 2.5rem;
-    
-}
-
-
+    width: 100%;
+    height: 100%;
 
     
-
-}
-.header carro-img{
-    width: 200%;
-    height: 500px;
 }
 
+.imagen-el-mercado{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.contenedor-de-imagen-el-mercado{
+    width: 25%;
+    height: 100px;
+}
 
 .campo-de-busqueda{
     background-color: azure;
     display: flex;
     width: 300px;
     height: 100%;
+    
 
     
 
@@ -465,6 +469,9 @@ body{
     width: 100%;
     height: 100%;
     text-align: center;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
