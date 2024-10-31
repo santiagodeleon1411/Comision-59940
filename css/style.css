@@ -21,13 +21,36 @@ body{
     background-color:  rgb(245, 245, 245);
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     flex-wrap: wrap;
-    justify-content: space-around;
     gap: 2.5rem;
     width: 100%;
     height: 100%;
 }
 
+@media(max-width: 537px){
+    .header{
+        display: flex;
+        gap: none;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+    }
+
+
+@media(max-width: 615px){
+    img{
+        order: 1;
+    }
+
+    form{
+        order: 3;
+    }
+    div{
+        order: 2;
+    }
+}
 
 nav ul li a:hover{
     text-decoration: underline;
@@ -49,20 +72,51 @@ p{
 .contenedor-de-imagen-el-mercado{
     width: 25%;
     height: 100px;
+    object-fit: contain;
 }
+
+picture img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 62.5rem) {
+    .navbar{
+        display: flex;
+        flex-direction: row;
+    }
+    .contenedor-de-imagen-el-mercado{
+        width: 10%;
+    }
+}
+
 
 .campo-de-busqueda{
     background-color: azure;
     display: flex;
-    width: 300px;
+    gap: 10px;
+    width: 270px;
     height: 100%;
     margin-top: 40px;
-    
+}
 
-    
+
+form a{
+    background-color: none;
+    text-decoration: none;
+    color: black;
 
 }
 
+
+.carro-dropdown{
+    display: flex;
+    flex-direction: column;
+
+
+}
+@media
 .navbar{
     display: flex;
     list-style: none;
@@ -82,9 +136,10 @@ p{
 
 .carro-img{
     display: flex;
-    margin-top: 30px;   
-    width: 40px;
-    height: 40px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
 }
 
 .icono-carro{
@@ -111,7 +166,7 @@ article{
 
 
 .seccion-productos-del-momento-index{
-    width: 976px;
+    width: 100%;
     height: 269px;
     background-image: url(../assets/img/ensalada.png);
     background-size: cover; 
@@ -119,6 +174,8 @@ article{
     background-position: center;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
     
     font-family: "Poppins", system-ui;
     font-size: 20px;
@@ -249,6 +306,7 @@ article{
     flex-direction: row;
     justify-content: space-evenly;
     padding: 20px 10px;
+
     
 }
 
@@ -257,9 +315,11 @@ article{
     flex-direction: row;
     justify-content: space-evenly;
     gap: 40px;
+
 }
 .footbar{
     display: flex;
+
     list-style: none;
     flex-direction: row;
     gap: 15.5rem;
